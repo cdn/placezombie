@@ -13,7 +13,7 @@ fs.readdir('sources', function(err, files) {
       sources.push(files[i]);
     }
   }
-  http.createServer(listener).listen(8000);
+  http.createServer(listener).listen(80);
 });
 
 /**
