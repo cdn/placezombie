@@ -1,0 +1,25 @@
+{
+  "name": "placezombies",
+  "version": "1.0.0",
+  "description": "Zombie image placeholder service",
+  "main": "memeplacer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tlongren/memeplacer.git"
+  },
+  "keywords": [
+    "node",
+    "placeholder",
+    "image",
+    "image",
+    "placeholder"
+  ],
+  "author": "Tyler Longren",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/tlongren/memeplacer/issues"
+  }
+}
