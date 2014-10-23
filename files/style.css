@@ -200,6 +200,13 @@ float:left;
   color: #999;
   text-decoration:none;
 }
+#longrendev {
+float:left;
+}
+#longrendev a {
+  color: #999;
+  text-decoration:none;
+}
 #copperfroghosting {
   color: #999;
 }
@@ -257,3 +264,5 @@ footer {
 .social .twitter a   { background-image: url("../../images/social/twitter-24x24.png"); }
 .social .google_plus a   { background-image: url("../../images/social/google+-24x24.png"); }
 .social .reddit a   { background-image: url("../../images/social/reddit-24x24.png"); }
+
+.red { color:#9A1526; }
