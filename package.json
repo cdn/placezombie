@@ -18,6 +18,7 @@
     "placeholder"
   ],
   "author": "Tyler Longren",
+  "engine": "node 0.10.32",
   "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/tlongren/memeplacer/issues"
