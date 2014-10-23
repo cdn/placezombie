@@ -1,7 +1,7 @@
 Zombie Image Placeholder Service
 ==================
 
-This is the code that runs (http://placezombie.com "http://placezombie.com") and was forked from [metaltoad/memeplacer](https://github.com/metaltoad/memeplacer). So all credit really goes to them.
+This is the code that runs [http://placezombie.com](http://placezombie.com) and was forked from [metaltoad/memeplacer](https://github.com/metaltoad/memeplacer). So all credit really goes to them.
 
 I really only made it so this could run on Heroku, so if you were wanting to host this on your own box, you're better off forking the [original repository](https://github.com/metaltoad/memeplacer).
 
