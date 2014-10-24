@@ -17,6 +17,18 @@ var http = require('http'),
 
 var sources = [];
 
+var _gauges = _gauges || [];
+(function() {
+  var t   = document.createElement('script');
+  t.type  = 'text/javascript';
+  t.async = true;
+  t.id    = 'gauges-tracker';
+  t.setAttribute('data-site-id', '54488572eddd5b04ac0019cf');
+  t.src = '//secure.gaug.es/track.js';
+  var s = document.getElementsByTagName('script')[0];
+  s.parentNode.insertBefore(t, s);
+} )();
+
 fs.readdir('sources', function(err, files) {
   for (var i = 0; i < files.length; i++) {
     if (files[i].match(/(\d+)x(\d+)\.\d+\.jpg/)) {
@@ -50,17 +62,6 @@ function listener(request, response) {
     notFound(response);
   }
 
-  var _gauges = _gauges || [];
-  (function() {
-    var t   = document.createElement('script');
-    t.type  = 'text/javascript';
-    t.async = true;
-    t.id    = 'gauges-tracker';
-    t.setAttribute('data-site-id', '54488572eddd5b04ac0019cf');
-    t.src = '//secure.gaug.es/track.js';
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(t, s);
-  })();
 }
 
 /**
