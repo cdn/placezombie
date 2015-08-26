@@ -1,5 +1,5 @@
 {
-  "name": "placezombies",
+  "name": "placezombie",
   "version": "1.0.0",
   "description": "Zombie image placeholder service",
   "main": "memeplacer.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/tlongren/memeplacer.git"
+    "url": "git://github.com/tlongren/placezombie.git"
   },
   "keywords": [
     "node",
@@ -21,7 +21,7 @@
   "engine": "node 0.10.32",
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/tlongren/memeplacer/issues"
+    "url": "https://github.com/tlongren/placezombie/issues"
   },
   "engines": {
     "node": "~0.10.0"
