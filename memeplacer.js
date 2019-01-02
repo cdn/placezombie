@@ -34,6 +34,13 @@ function listener(request, response) {
     x >= 1 && x <= 1000 && y >= 1 && y <= 1000) {
 
     streamImage(response, x, y, gray);
+  } else if (
+    (parts = uri.match(/^\/(\d+)\/(\d+)$/)) &&
+    request.method == 'GET' &&
+    (x = parseInt(parts[1],10)) && (y = parseInt(parts[2],10)) &&
+    x >= 1 && x <= 1000 && y >= 1 && y <= 1000) {
+
+    streamImage(response, x, y, gray);
   } else if (request.method == 'GET' && !uri.match(/\.\./)) {
     streamFile(response, uri);
   } else {
